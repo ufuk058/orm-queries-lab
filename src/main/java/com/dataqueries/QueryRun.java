@@ -34,10 +34,18 @@ public class QueryRun implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        /// ### Address Repository ####
+//        System.out.println("Top 5 balance: "+balanceRepository.findTop5ByBalance());
+//        System.out.println("Address starts with: "+ addressRepository.findByStreetStartsWith("Main"));
+//        System.out.println(addressRepository.findByCustomerId(160));
+//        System.out.println(addressRepository.findByCustomerId(160));
 
-        System.out.println("Top 5 balance: "+balanceRepository.findTop5ByBalance());
-        System.out.println("Address starts with: "+ addressRepository.findByStreetStartsWith("Main"));
-        System.out.println(addressRepository.findByCustomerId(160));
-        System.out.println(addressRepository.findByCustomerId(160));
-    }
+        /// ### Balance Repository ####
+//        System.out.println(balanceRepository.retrieveTop5Amount());
+//        System.out.println(balanceRepository.retrieveBalanceGreaterThanOrEqual(900));
+//        System.out.println(balanceRepository.retrieveBalanceLessThan(100));
+
+        /// ####
+
+  }
 }
