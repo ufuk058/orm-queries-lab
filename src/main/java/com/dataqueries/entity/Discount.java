@@ -14,11 +14,6 @@ import java.math.BigDecimal;
 @Data
 public class Discount extends  BaseEntity {
 
-    public Discount(String name, BigDecimal discount, DiscountType discountType) {
-        this.name = name;
-        this.discount = discount;
-        this.discountType = discountType;
-    }
 
     private String name;
     private BigDecimal discount;
